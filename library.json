@@ -1,6 +1,6 @@
 {
     "name": "GL868_ESP32",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "GPS tracking library for ESP32 with SIM868 modem. Features non-blocking operation, deep sleep power management, SMS/Call control, motion detection via LIS3DHTR, and offline data queuing.",
     "keywords": [
         "gps",
