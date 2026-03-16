@@ -1,0 +1,227 @@
+(footprint "CP_EIA-3528-15_AVX-H"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -2.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b2c52da-b7df-477f-bc57-79785842dbb4")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100uF"
+		(at 0 2.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f58b13c2-91f0-4a55-8e69-da7ab3ab3bd6")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "626cd626-5f48-4043-8efd-7892717d0c21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor, small symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db8609ea-7bda-4f31-a229-3857f780d799")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C16133"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10dcfffa-efe4-4257-a39c-1b88c1ac4d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.47 -1.51)
+		(end -2.47 1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84e59aaa-1b36-4186-980c-aa9e04f42c86")
+	)
+	(fp_line
+		(start -2.47 1.51)
+		(end 1.75 1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "378f5c56-3d87-4917-b8e1-36a64849374f")
+	)
+	(fp_line
+		(start 1.75 -1.51)
+		(end -2.47 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb6b3ff9-8f8c-4f56-ad86-7b5ae56ba1e4")
+	)
+	(fp_line
+		(start -2.46 -1.65)
+		(end 2.46 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bfbd830-2cb5-4dc1-ad99-d67a140b54ac")
+	)
+	(fp_line
+		(start -2.46 1.65)
+		(end -2.46 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccb97da0-20a1-4fff-a295-688270c31a01")
+	)
+	(fp_line
+		(start 2.46 -1.65)
+		(end 2.46 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c26fc29-f3bc-4306-a26b-abe379cd9760")
+	)
+	(fp_line
+		(start 2.46 1.65)
+		(end -2.46 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "574d01dd-35be-4ca8-b7e8-bf9c7dbc14ec")
+	)
+	(fp_line
+		(start -1.75 -0.7)
+		(end -1.749999 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30654db6-e2db-4990-914a-ce7a61625c01")
+	)
+	(fp_line
+		(start -1.749999 1.4)
+		(end 1.749999 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24a1a3c8-f9d5-4b64-9f31-59140849ec65")
+	)
+	(fp_line
+		(start -1.050001 -1.4)
+		(end -1.75 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00fed323-1255-4d4f-823f-e370e0b822c0")
+	)
+	(fp_line
+		(start 1.749999 -1.4)
+		(end -1.050001 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed2d6c14-3bfa-413c-976d-bd640c08b72c")
+	)
+	(fp_line
+		(start 1.749999 1.4)
+		(end 1.749999 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53b61b53-0b49-4052-9cb9-bc38db9d3e0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9c94f4e1-0f49-4fe6-9339-45c7a0ab4419")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.13)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.539999 0)
+		(size 1.34 2.39)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.186567)
+		(uuid "ae3b2451-4acd-43f3-9111-a3522381c23a")
+	)
+	(pad "2" smd roundrect
+		(at 1.539999 0)
+		(size 1.34 2.39)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.186567)
+		(uuid "b70a9b2d-3f0a-4a20-89be-ce5f1ac61924")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3528-15_AVX-H.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

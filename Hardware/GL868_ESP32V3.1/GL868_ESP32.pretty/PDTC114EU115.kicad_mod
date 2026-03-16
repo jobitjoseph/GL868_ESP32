@@ -1,0 +1,297 @@
+(footprint "PDTC114EU115"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PDTC114EU,115-3")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a920358-3ccd-4686-b754-bd6a0261a319")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "PDTC114EU,115"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3bb7084b-a123-42e7-966d-ec9c199060cd")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDTC114E_SER.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71908240-0ee2-4726-9c5e-e07d64751ade")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NXP, PDTC114EU,115 NPN Digital Transistor, 100 mA 50 V 10 k, Ratio Of 1, 3-Pin UMT"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4501fbd5-5281-4a20-8d98-8cd5afee908a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca5e806f-1c27-4b19-9b08-e8c101970354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-PDTC114EU115"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b2d462d-0a03-4ff8-a9c2-77d3d17ef502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PDTC114EU115?qs=LOCUfHb8d9s6AnIpL5ILEg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b3155be-6d49-4e8b-9d62-0a9fca7f7c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fff8fb1-b9bc-4c19-92cc-ba18d01b3e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PDTC114EU,115"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63f5e654-9927-4752-be25-9cdfd86f6570")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C41348289"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ee85b40-67e4-40ea-9212-e7c77094379d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f954d7f-98b6-4028-9c40-2d95676e561d")
+	)
+	(fp_line
+		(start -0.65 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5c1b909-292b-4811-989e-0c818f3f256c")
+	)
+	(fp_line
+		(start 0.6 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0292e72b-e66d-4a74-8467-0ed2b8ed0c74")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "414a4821-cc8a-4b94-82d5-5a3ffbcd1b11")
+	)
+	(fp_line
+		(start -1.2 -1.32)
+		(end 1.18 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae0f81e6-80b7-47af-a6ee-b9ed8c1876ea")
+	)
+	(fp_line
+		(start -1.2 1.33)
+		(end -1.2 -1.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a242e86-2d83-4e99-8bba-3332beca49dc")
+	)
+	(fp_line
+		(start 1.18 -1.32)
+		(end 1.18 1.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff919704-7c3f-424b-9783-c21a72d6dd1d")
+	)
+	(fp_line
+		(start 1.18 1.33)
+		(end -1.2 1.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27798e3c-bcbb-4a46-9cc9-7a010485a69d")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdabf2c3-6371-4c79-8fbd-6ac803983573")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3516c00-74a9-40a4-856f-fccd85129f17")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3fd21a7-ff72-4729-8786-6bb4c33592a2")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db072ec0-b7e6-4e51-89f8-433a82b69705")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "a6969232-c438-4014-b7b5-7589e0b2ce3f")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.925 90)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db5a12b2-c768-4b72-9510-5d731f391495")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.925 90)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b5f04b5-1ced-4bb4-ba19-4f2579c0ad8a")
+	)
+	(pad "3" smd rect
+		(at 0 -0.925 90)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f4f27a6-c8a4-4bb3-a01d-03f8ef169760")
+	)
+	(embedded_fonts no)
+	(model "/Users/semiconmediapvtltd/Desktop/KicadLib/PDTC114EU,115/PDTC114EU,115.stp"
+		(offset
+			(xyz 0.8699999917 -1.479999997 -0.4300000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
