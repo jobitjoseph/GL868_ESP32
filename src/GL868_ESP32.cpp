@@ -578,6 +578,35 @@ void GL868_ESP32::handleSleepPrepare() {
   // Disable motion interrupt before sleep
   motion.disableInterrupt();
 
+  // Continuous Motion Check (5 seconds)
+  if (_motionTriggerEnabled || sleep.isMotionWake() || sleep.isMotionWakeEnabled()) {
+     GL868_ESP32_LOG_I("Checking for continuous motion for 5 seconds...");
+     motion.clearInterrupt();
+     motion.enableInterrupt(); // Re-enable to catch new events
+     
+     bool motionContinued = false;
+     uint32_t startCheck = millis();
+     while (millis() - startCheck < 5000) {
+         if (motion.motionDetected()) {
+             motionContinued = true;
+             break;
+         }
+         delay(100);
+     }
+     
+     if (motionContinued) {
+         GL868_ESP32_LOG_I("Continuous motion detected! Aborting sleep and starting new cycle.");
+         
+         // Need to clear sleep/wake flags and force back to BOOT
+         stateMachine.clearSleepRequest();
+         stateMachine.forceState(STATE_BOOT); // Restart cycle
+         return;
+     }
+     
+     // Disable again if no motion, code will re-enable shortly after for deep sleep
+     motion.disableInterrupt(); 
+  }
+
   // Handle modem power based on configuration
   if (sleep.shouldFullPowerOff()) {
     GL868_ESP32_LOG_I("Full modem power off");

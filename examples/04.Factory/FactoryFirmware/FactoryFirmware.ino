@@ -122,7 +122,7 @@ void setup() {
   // - Asset in transit: 300-500mg (detect handling)
   // - Parked vehicle: 200-400mg (detect towing/theft)
   // - Equipment: 400-800mg (detect usage)
-  GeoLinker.setMotionThreshold(300.0); // 300mg threshold
+  GeoLinker.setMotionThreshold(50.0); // Very high sensitivity: 50mg
 
   // -------------------------------------------------------------------------
   // If waking from deep sleep (timer or motion or RI), skip factory setup
